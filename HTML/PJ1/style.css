@@ -1,0 +1,91 @@
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.nav {
+  height: 70px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.nav_right_items {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav_item {
+  margin-left: 15px;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 20px;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  color: grey;
+}
+
+.main {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.prices {
+  display: flex;
+}
+
+.price_item {
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.price_item_title {
+  background-color: rgba(0, 0, 0, 0.03);
+  height: 53px;
+  line-height: 53px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid black;
+}
+
+.price_item_content {
+  text-align: center;
+  height: 50px;
+  font-size: 2.2rem;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.price_item_detail {
+  font-size: 1.3rem;
+  height: 20px;
+}
+
+.price_item_button {
+  width: 200px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #007bff;
+  border-radius: 4px;
+  padding: 10px 10px 10px 10px;
+}
+
+.price_item_button--active {
+  background-color: #007bff;
+  color: white;
+}
